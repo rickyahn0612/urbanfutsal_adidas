@@ -1,0 +1,44 @@
+#grafiti-container
+  .container
+    #grafiti-top 
+    #grafiti-middle
+    #grafiti-bottom
+    #base-logo-container.row
+      .col-md-6
+        = image_tag 'the_base_logo.jpg', id: 'base-logo'
+      .col-md-6{style: 'padding-left: 40px;'}
+        %h1 
+          URBAN FUTSAL 
+          %br
+          SPORT LOUNGE 
+          %br
+          ART + MUSIC 
+          %br
+          RETAIL 
+          %br
+          FOOD + BEVERAGE
+    #info-container.row
+      .col-md-6
+        %p.header THE CONTAINER YARD
+        %p.address
+          %br
+          800 E 4TH ST, LOS ANGELES, CA 90013 
+          %br
+          MON - THUR + SAT 
+          %br
+          12PM - 10PM
+
+    #website-info-container
+      %h3 WWW.URBANFUTSAL.LA/ADIDASSOCCER
+      #seperator
+
+    #logo-container.row
+      %br
+      .col-md-2
+        = image_tag 'logo_adidas.jpg'
+      .col-md-2.col-md-offset-1{style: 'padding-top: 25px;'}
+        = image_tag 'logo_nikys_sport.jpg'
+      .col-md-2.col-md-offset-1
+        = image_tag 'logo_container_yard.png', style: 'width: 80%;'
+      .col-md-3.col-md-offset-1{style: 'padding-top: 40px;'}
+        = image_tag 'logo_urbanfutsal.jpg'
