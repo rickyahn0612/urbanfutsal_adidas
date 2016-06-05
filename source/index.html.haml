@@ -23,31 +23,35 @@
         %p.header THE CONTAINER YARD
         %p.address
           %br
-          800 E 4TH ST, LOS ANGELES, CA 90013 
+          800 E 4TH ST, <span class="second-line">LOS ANGELES, CA 90013</span>
           %br
           MON - THURS
           %br
-          12PM - 7PM   OPEN PLAY
+          <span class="info-time">12PM - 7PM   OPEN PLAY</span>
           %br
-          7PM - 10PM   PICKUP GAMES (RSVP required)
+          <span class="info-time">7PM - 10PM   PICKUP GAMES (RSVP required)</span>
           %br
           SATURDAY
           %br
-          12PM - 10PM OPEN PLAY
+          <span class="info-time">12PM - 10PM OPEN PLAY</span>
       .col-md-3
-        = link_to 'RSVP FOR PICKUP', 'https://turfmapp.com/facility/AdidasLeague#/', class: 'btn btn-primary btn-responsive' 
+        = link_to 'https//turfmapp.com/facility/AdidasLeague#/' do
+          .base-button{class: 'btn btn-large btn-primary'}
+            %p RSVP FOR PICKUP
       .col-md-3
-        = link_to 'MORE INFO', 'http://urbanpitch.com/adidas-launches-the-base-la/', class: 'btn btn-primary' 
-        
+        = link_to 'https//urbanpitch.com/adidas-launches-the-base-la/' do
+          .base-button{class: 'btn btn-large btn-primary'}
+            %p MORE INFO
+
     #website-info-container
       #seperator
     #logo-container.row
       %br
       .col-md-3
-        = image_tag 'logo_adidas.jpg'
+        = link_to((image_tag 'logo_adidas.jpg'), 'http://www.adidas.com')
       .col-md-3
-        = image_tag 'logo_nikys_sport.jpg'
+        = link_to((image_tag 'logo_nikys_sport.jpg'), 'http://www.nikys-sports.com')
       .col-md-3
-        = image_tag 'logo_container_yard.png', style: 'width: 60%'
+        = link_to((image_tag 'logo_container_yard.png', style: 'width: 60%'), 'http://www.thecontaineryard.com')
       .col-md-3
-        = image_tag 'logo_urbanfutsal.jpg', style: 'width: 100%;'
+        = link_to((image_tag 'logo_urbanfutsal.jpg', style: 'width: 100%;'), 'http://www.urbanfutsal.la')
