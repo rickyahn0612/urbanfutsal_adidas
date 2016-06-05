@@ -41,6 +41,25 @@ body {
     margin-top: 50px;
   }
 
+  #grafiti-middle-bottom {
+    display: none;
+    background-image: url('../images/grafiti_middle.jpg');
+    background-size: 100% 120px;
+    background-repeat: no-repeat;
+    height: 120px;
+    margin-top: 50px;
+  }
+
+  #grafiti-bottom-bottom {
+    display: none;
+    background-image: url('../images/grafiti_bottom.jpg');
+    background-size: 100% 120px;
+    background-repeat: no-repeat;
+    height: 120px;
+    margin-top: 50px;
+  }
+
+
   #base-logo-container {
     margin-top: 5%;
 
@@ -138,10 +157,45 @@ body {
 }
 
 @media(max-width:767px){ 
+  #logo-container {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #grafiti-middle-bottom {
+    display: block !important;
+    margin-top: 10px !important;
+  }
+
+  #grafiti-bottom-bottom {
+    display: block !important;
+    margin-top: 25px !important;
+  }
+
+  #grafiti-top {
+    margin-top: 20px !important;
+  }
+
+  #grafiti-middle {
+    display: none;
+  }
+
+  #grafiti-bottom {
+    display: none;
+  }
+
   #base-logo-container {
     .info-text {
       margin-top: 5%;
     }
+  }
+
+  .urban-futsal-logo {
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 20px !important;
+    min-height: 20px !important;
   }
 }
 
