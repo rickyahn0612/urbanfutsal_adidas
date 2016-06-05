@@ -1,0 +1,53 @@
+#grafiti-container
+  .container
+    #grafiti-top 
+    #grafiti-middle
+    #grafiti-bottom
+
+    #base-logo-container.row
+      .col-md-6
+        = image_tag 'the_base_logo.jpg', id: 'base-logo'
+      .col-md-6.info-text
+        %h1 
+          URBAN FUTSAL 
+          %br
+          SPORT LOUNGE 
+          %br
+          ART + MUSIC 
+          %br
+          RETAIL 
+          %br
+          FOOD + BEVERAGE
+    #info-container.row
+      .col-md-6.info-text
+        %p.header THE CONTAINER YARD
+        %p.address
+          %br
+          800 E 4TH ST, LOS ANGELES, CA 90013 
+          %br
+          MON - THURS
+          %br
+          12PM - 7PM   OPEN PLAY
+          %br
+          7PM - 10PM   PICKUP GAMES (RSVP required)
+          %br
+          SATURDAY
+          %br
+          12PM - 10PM OPEN PLAY
+      .col-md-3
+        = link_to 'RSVP FOR PICKUP', 'https://turfmapp.com/facility/AdidasLeague#/', class: 'btn btn-primary btn-responsive' 
+      .col-md-3
+        = link_to 'MORE INFO', 'http://urbanpitch.com/adidas-launches-the-base-la/', class: 'btn btn-primary' 
+        
+    #website-info-container
+      #seperator
+    #logo-container.row
+      %br
+      .col-md-3
+        = image_tag 'logo_adidas.jpg'
+      .col-md-3
+        = image_tag 'logo_nikys_sport.jpg'
+      .col-md-3
+        = image_tag 'logo_container_yard.png', style: 'width: 60%'
+      .col-md-3
+        = image_tag 'logo_urbanfutsal.jpg', style: 'width: 100%;'
