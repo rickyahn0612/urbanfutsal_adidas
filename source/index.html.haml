@@ -7,7 +7,7 @@
     #base-logo-container.row
       .col-md-6
         = image_tag 'the_base_logo.jpg', id: 'base-logo'
-      .col-md-6{style: 'padding-left: 40px;'}
+      .col-md-6.info-text
         %h1 
           URBAN FUTSAL 
           %br
@@ -19,7 +19,7 @@
           %br
           FOOD + BEVERAGE
     #info-container.row
-      .col-md-6
+      .col-md-6.info-text
         %p.header THE CONTAINER YARD
         %p.address
           %br
@@ -34,11 +34,10 @@
           SATURDAY
           %br
           12PM - 10PM OPEN PLAY
-      .col-md-6
-        .col-md-6
-          = link_to 'RSVP FOR PICKUP', 'https://turfmapp.com/facility/AdidasLeague#/', class: 'btn btn-primary' 
-        .col-md-6
-          = link_to 'MORE INFO', 'http://urbanpitch.com/adidas-launches-the-base-la/', class: 'btn btn-primary' 
+      .col-md-3
+        = link_to 'RSVP FOR PICKUP', 'https://turfmapp.com/facility/AdidasLeague#/', class: 'btn btn-primary btn-responsive' 
+      .col-md-3
+        = link_to 'MORE INFO', 'http://urbanpitch.com/adidas-launches-the-base-la/', class: 'btn btn-primary' 
         
     #website-info-container
       #seperator
