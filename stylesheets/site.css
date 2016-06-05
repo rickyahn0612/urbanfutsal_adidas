@@ -457,22 +457,27 @@ body {
   margin-top: 40px;
   color: white;
   letter-spacing: 5px; }
-  /* line 67, site.css.scss */
+  /* line 68, site.css.scss */
+  #grafiti-container #info-container .info-text .second-line {
+    display: block; }
+  /* line 73, site.css.scss */
   #grafiti-container #info-container .base-button {
     width: 100%;
-    margin-bottom: 30px; }
-    /* line 70, site.css.scss */
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 7px 0; }
+    /* line 78, site.css.scss */
     #grafiti-container #info-container .base-button p {
       font-family: adihaus;
       font-size: 20px;
       margin: 0; }
-  /* line 77, site.css.scss */
+  /* line 85, site.css.scss */
   #grafiti-container #info-container p.header {
     font-family: adihaus;
     font-size: 25px;
     padding: 0;
     margin: 0; }
-  /* line 84, site.css.scss */
+  /* line 92, site.css.scss */
   #grafiti-container #info-container p.address {
     font-family: adineuelight;
     position: relative;
@@ -480,41 +485,37 @@ body {
     font-size: 17px;
     color: white;
     line-height: 35px; }
-  /* line 93, site.css.scss */
+  /* line 101, site.css.scss */
   #grafiti-container #info-container .info-time {
     position: relative;
     right: -8px; }
-/* line 100, site.css.scss */
+/* line 108, site.css.scss */
 #grafiti-container #website-info-container h3 {
   color: white;
   font-family: adihaus;
   letter-spacing: 8px;
   font-size: 27px; }
-/* line 107, site.css.scss */
+/* line 115, site.css.scss */
 #grafiti-container #website-info-container #seperator {
   background: white;
   margin-top: 10px;
   height: 35px; }
-/* line 114, site.css.scss */
+/* line 122, site.css.scss */
 #grafiti-container #logo-container {
   margin-bottom: 40px; }
-  /* line 117, site.css.scss */
+  /* line 125, site.css.scss */
   #grafiti-container #logo-container .col-md-3 {
     min-height: 200px;
     text-align: center;
     line-height: 200px; }
-    /* line 123, site.css.scss */
+    /* line 131, site.css.scss */
     #grafiti-container #logo-container .col-md-3 img {
       width: 70%; }
 
 @media (max-width: 767px) {
-  /* line 134, site.css.scss */
+  /* line 142, site.css.scss */
   #base-logo-container .info-text {
-    margin-top: 5%; }
-
-  /* line 141, site.css.scss */
-  #info-container .info-text .second-line {
-    display: block; } }
+    margin-top: 5%; } }
 @media (max-width: 991px) {
   /* line 150, site.css.scss */
   #base-logo-container .info-text {
