@@ -64,9 +64,17 @@ body {
     color: white;
     letter-spacing: 5px;
 
+    .info-text {
+      .second-line {
+        display: block;
+      } 
+    }
+
     .base-button {
       width: 100%;
       margin-bottom: 30px;
+      text-align: center;
+      padding: 7px 0;
       p {
         font-family: adihaus; 
         font-size: 20px;
@@ -133,14 +141,6 @@ body {
   #base-logo-container {
     .info-text {
       margin-top: 5%;
-    }
-  }
-
-  #info-container {
-    .info-text {
-      .second-line {
-        display: block;
-      } 
     }
   }
 }
