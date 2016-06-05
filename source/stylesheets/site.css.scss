@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import "normalize";
 @font-face {
-  font-family: customFont;
+  font-family: adihaus;
   src: url('../AdihausDIN-Cn.ttf'),
 }
 
@@ -9,11 +9,6 @@
   font-family: adineuelight;
   src: url('../adineuePRO-Light.otf'),
 }
-
-/*@font-face {*/
-  /*font-family: adineuebold;*/
-  /*src: url('../adineuePRO-Bold.otf'),*/
-/*}*/
 
 body {
   background: #000 !important;
@@ -70,7 +65,7 @@ body {
     letter-spacing: 5px;
 
     p.header {
-      font-family: customFont; 
+      font-family: adihaus; 
       font-size: 25px;
       padding: 0;
       margin: 0;
@@ -89,7 +84,7 @@ body {
   #website-info-container {
     h3 {
       color: white;
-      font-family: customFont;
+      font-family: adihaus;
       letter-spacing: 8px;
       font-size: 27px;
     }
@@ -97,17 +92,24 @@ body {
     #seperator {
       background: white;
       margin-top: 10px;
-      margin-bottom: 20px;
       height: 35px;
     }
   }
 
   #logo-container {
-    text-align: center;
     margin-bottom: 40px;
 
-    img {
-      width: 100%;
-    }
+    .col-md-3 {
+      min-height: 200px;
+      text-align: center;
+      line-height: 200px;
+
+
+      img {
+        width: 70%;
+      }
+
+    } 
+
   }
 }
