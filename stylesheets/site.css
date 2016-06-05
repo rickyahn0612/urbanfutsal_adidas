@@ -460,13 +460,17 @@ body {
   /* line 67, site.css.scss */
   #grafiti-container #info-container .col-md-3 {
     margin-bottom: 30px; }
-  /* line 71, site.css.scss */
+    /* line 69, site.css.scss */
+    #grafiti-container #info-container .col-md-3 a {
+      font-family: adihaus;
+      font-size: 20px; }
+  /* line 75, site.css.scss */
   #grafiti-container #info-container p.header {
     font-family: adihaus;
     font-size: 25px;
     padding: 0;
     margin: 0; }
-  /* line 78, site.css.scss */
+  /* line 82, site.css.scss */
   #grafiti-container #info-container p.address {
     font-family: adineuelight;
     position: relative;
@@ -474,42 +478,42 @@ body {
     font-size: 17px;
     color: white;
     line-height: 35px; }
-/* line 89, site.css.scss */
+/* line 93, site.css.scss */
 #grafiti-container #website-info-container h3 {
   color: white;
   font-family: adihaus;
   letter-spacing: 8px;
   font-size: 27px; }
-/* line 96, site.css.scss */
+/* line 100, site.css.scss */
 #grafiti-container #website-info-container #seperator {
   background: white;
   margin-top: 10px;
   height: 35px; }
-/* line 103, site.css.scss */
+/* line 107, site.css.scss */
 #grafiti-container #logo-container {
   margin-bottom: 40px; }
-  /* line 106, site.css.scss */
+  /* line 110, site.css.scss */
   #grafiti-container #logo-container .col-md-3 {
     min-height: 200px;
     text-align: center;
     line-height: 200px; }
-    /* line 112, site.css.scss */
+    /* line 116, site.css.scss */
     #grafiti-container #logo-container .col-md-3 img {
       width: 70%; }
 
 @media (max-width: 767px) {
-  /* line 123, site.css.scss */
+  /* line 127, site.css.scss */
   #base-logo-container .info-text {
     margin-top: 5%; } }
 @media (max-width: 991px) {
-  /* line 131, site.css.scss */
+  /* line 135, site.css.scss */
   #base-logo-container .info-text {
     margin-top: 5%; }
 
-  /* line 136, site.css.scss */
+  /* line 140, site.css.scss */
   #info-container {
     margin-top: 125px !important; } }
 @media (max-width: 1200px) {
-  /* line 144, site.css.scss */
+  /* line 148, site.css.scss */
   #info-container .info-text {
     margin-top: -90px !important; } }
