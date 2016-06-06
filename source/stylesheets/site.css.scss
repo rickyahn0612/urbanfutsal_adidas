@@ -89,7 +89,12 @@ body {
       } 
     }
 
+    #button-container {
+
+    }
+
     .base-button {
+      margin-top: 100px;
       width: 100%;
       margin-bottom: 30px;
       text-align: center;
@@ -197,6 +202,11 @@ body {
     line-height: 20px !important;
     min-height: 20px !important;
   }
+
+  .base-button {
+    margin-top: 0 !important; 
+  }
+
 }
 
 @media(max-width: 991px) {
@@ -208,6 +218,11 @@ body {
 
   #info-container {
     margin-top: 125px !important;
+
+    .base-button {
+      margin-top: 0 !important; 
+    }
+
   }
 
 }
@@ -216,6 +231,10 @@ body {
   #info-container {
     .info-text {
       margin-top: -90px !important;
+    }
+
+    .base-button {
+      margin-top: 0 !important; 
     }
   }
 }
